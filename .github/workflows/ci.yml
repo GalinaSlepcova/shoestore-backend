@@ -22,8 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd src
-          npm ci
+         cd client/src
+         npm ci
 
       - name: Run code validation (Linter)
         run: make lint
